@@ -1,6 +1,10 @@
 @charset "utf-8";
 
-#logo img{
+header #logo{
+    margin: auto;
+}
+
+header h1{
     margin: auto;
 }
 

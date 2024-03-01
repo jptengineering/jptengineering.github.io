@@ -1,1 +1,9 @@
 @charset "utf-8";
+
+form{
+    background: #0d203d;
+    width: 50%;
+    aspect-ratio: 1/0.5;
+    margin: auto;
+    border-radius: 25px;
+}
