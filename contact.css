@@ -1,9 +1,59 @@
 @charset "utf-8";
 
 form{
+    display: flex;
+    flex-flow: row wrap;
     background: #0d203d;
+    color: white;
     width: 50%;
     aspect-ratio: 1/0.5;
-    margin: auto;
+    margin: 25px auto;
     border-radius: 25px;
+    padding: 50px;
+    box-shadow: 1px 1px 15px #0d203d;
 }
+
+form legend, form label{
+    width: 100%;
+}
+
+form legend{
+    font-size: 15pt;
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 50%;
+    aspect-ratio: 1/0.1;
+    margin: 10px 0px;
+    font-size: 16pt;
+    padding: 5px;
+}
+
+form textarea{
+    width: 100%;
+    aspect-ratio: 1/0.2;
+    font-size: 14pt;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+form #submit{
+    width: 250px;
+    aspect-ratio: 1/0.2;
+    margin: 10px 0px;
+    border-radius: 5px;
+    background: #1f498a;
+    color: white;
+    border: none;
+    font-size: 16pt;
+    font-weight: 500 ;
+}
+
+form #submit:hover{
+    font-weight: 500 ;
+    text-decoration: underline;
+    box-shadow: 0px 0px 5px #1f498a;
+
+}
+

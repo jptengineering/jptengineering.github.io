@@ -32,6 +32,7 @@
 }
 .product{
     background: #0d203d;
+    box-shadow: 0px 0px 2.5px #0d203d;
     width: 300px;
     aspect-ratio: 1/0.3;
     border-radius: 15px;

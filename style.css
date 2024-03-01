@@ -66,6 +66,19 @@ nav a{
     color: white;
 }
 
+#banner{
+    width: 100%;
+}
+
+#banner img{
+    width: 100%;
+    height: 350px;
+    border: 10px solid #1f498a;
+    border-top: none;
+    object-fit: fill;
+    background-size: auto;
+}
+
 main{
     display: flex;
     flex-flow: row wrap;
@@ -114,7 +127,14 @@ footer > ul a:hover{
 }
 
 footer ul img:hover{
-    color: #0d203d;
+    filter: brightness(0) 
+            saturate(100%) 
+            invert(14%) 
+            sepia(27%) 
+            saturate(1090%) 
+            hue-rotate(174deg) 
+            brightness(95%) 
+            contrast(107%)
 }
 
 footer a{
@@ -123,11 +143,6 @@ footer a{
 
 footer #email img{
     margin-top: 5px;
-}
-
-
-footer img:hover{
-    width: 50px;
 }
 
 footer nav{
