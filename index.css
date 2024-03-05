@@ -12,11 +12,18 @@ main h1{
     color: black;
 }
 
+main img{
+    margin: auto;
+}
 
 @media screen and (max-width: 480px){
-
+    main img{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1024px){
-
+    main img{
+        width: 50%;
+    }
 }
