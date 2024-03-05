@@ -1,1 +1,107 @@
 @charset "utf-8";
+h1{
+    display: block;
+    width: 100%;
+}
+
+#miniLink{
+    width: 100%;
+}
+
+#sponsors{
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+.sponsors{
+    background: #0d203d;
+    color: white;
+    margin: auto;
+    text-align: center;
+    aspect-ratio: 3/4;
+    box-shadow: 0px 0px 2.5px #0d203d;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.sponsors .name{
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.sponsors img{  
+    width: 100%;
+        aspect-ratio: 3/4;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#officers{
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+.officers{
+    background: #0d203d;
+    color: white;
+    margin: auto;
+    text-align: center;
+    aspect-ratio: 3/4;
+    box-shadow: 0px 0px 2.5px #0d203d;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.officers .name{
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.officers img{  
+    width: 100%;
+        aspect-ratio: 3/4;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#miniLink{
+    margin: 15px 0px;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    .sponsors{
+        width: 45%;
+        margin: 5px auto;
+    }
+
+    .officers{
+        width: 32%;
+        margin: 5px auto;
+    }
+
+    .officers .name{
+        font-size: 9pt;
+    }
+
+    .officers .title{
+        font-size: 11pt;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .sponsors{
+        width: 45%;
+    }
+
+    .officers{
+        width: 15%;
+    }
+
+    .officers .name{
+        font-size: ;
+    }
+
+}

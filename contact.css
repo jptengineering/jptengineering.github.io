@@ -9,7 +9,10 @@ body{
     background-image: linear-gradient(#a0a0a0 1px, transparent 1px), 
                       linear-gradient(to right, #a0a0a0 1px, #ffffff 1px);
     background-size: 45px 45px;
+}
 
+#title{
+    text-shadow: 3px 3px 5px #a0a0a0;
 }
 
 form{
@@ -17,7 +20,6 @@ form{
     flex-flow: row wrap;
     background: #0d203d;
     color: white;
-    width: 50%;
     aspect-ratio: 1/0.5;
     margin: 25px auto;
     border-radius: 25px;
@@ -25,47 +27,96 @@ form{
     box-shadow: 1px 1px 15px #0d203d;
 }
 
-form legend, form label{
-    width: 100%;
-}
-
-form legend{
-    font-size: 15pt;
-    margin-bottom: 10px;
-}
-
 form input{
-    width: 50%;
     aspect-ratio: 1/0.1;
     margin: 10px 0px;
-    font-size: 16pt;
     padding: 5px;
 }
 
 form textarea{
     width: 100%;
-    aspect-ratio: 1/0.2;
-    font-size: 14pt;
     padding: 5px;
     margin: 10px 0px;
 }
 
+form legend{
+    margin-bottom: 10px;
+}
+
+form legend, form label{
+    width: 100%;
+}
+
 form #submit{
-    width: 250px;
-    aspect-ratio: 1/0.2;
-    margin: 10px 0px;
-    border-radius: 5px;
     background: #1f498a;
     color: white;
     border: none;
-    font-size: 16pt;
+    aspect-ratio: 1/0.2;
+    margin: 10px 0px;
+    border-radius: 5px;
     font-weight: 500 ;
 }
 
 form #submit:hover{
-    font-weight: 500 ;
     text-decoration: underline;
     box-shadow: 0px 0px 5px #1f498a;
-
+    font-weight: 500 ;   
 }
 
+
+@media screen and (max-width: 480px){
+    #title{
+        display: block;
+        margin-top: 100px ;
+    }
+    
+    form{
+        width: 90%;
+    }
+    
+    form legend{
+        font-size: 12pt;
+        margin-bottom: 10px;
+    }
+    
+    form input{
+        width: 100%;
+        font-size: 16pt;
+    }
+    
+    form textarea{
+        font-size: 14pt;
+        aspect-ratio: 1/0.75;
+    }
+    
+    form #submit{
+        width: 100%;
+        font-size: 16pt;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    form{
+        width: 50%;
+    }
+    
+    form legend{
+        font-size: 15pt;
+    }
+    
+    form input{
+        width: 50%;
+        font-size: 16pt;
+    }
+    
+    form textarea{
+        font-size: 14pt;
+        aspect-ratio: 1/0.25;
+    }
+    
+    form #submit{
+        width: 250px;
+        font-size: 16pt;
+    }
+
+}

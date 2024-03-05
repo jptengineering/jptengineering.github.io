@@ -27,15 +27,15 @@
     <h1 id="title">Contact</h1>
     <form>
         <legend><h2>Personal Information</h2></legend>
-        <label for="fname">First Name</label>
-        <input id="fname" type="text">
-        <label for="lname">Last Name</label>
-        <input id="lname" type="text">
-        <label for="email">E-mail</label>
-        <input id="email" type="text">
-        <label for="text">Your Message</label>
-        <textarea></textarea>
-        <input id="submit" type="submit" onclick="alert('Form Submited')">
+        <label for="fname">First Name *</label>
+        <input id="fname" type="text" autocomplete="given-name" required>
+        <label for="lname">Last Name *</label>
+        <input id="lname" type="text" autocomplete="family-name" required>
+        <label for="email">E-mail *</label>
+        <input id="email" type="text" autocomplete="email" required>
+        <label for="text">Your Message *</label>
+        <textarea id="text"></textarea>
+        <input id="submit" type="submit" onsubmit="alert('Form Submited')">
     </form>
 </main>
 <footer>
