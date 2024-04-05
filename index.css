@@ -24,6 +24,6 @@ main img{
 
 @media screen and (min-width: 1024px){
     main img{
-        width: 50%;
+        height: 50%;
     }
 }

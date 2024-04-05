@@ -71,6 +71,19 @@ h1{
     text-align: center;
 }
 
+#bsta{
+    margin: auto;
+}
+
+#bsta p{
+    width: 100%;
+}
+
+#bsta p a{
+    text-align: center;
+    margin: auto;
+}
+
 @media screen and (max-width: 480px){
     .sponsors{
         width: 45%;

@@ -6,25 +6,25 @@
     margin: auto;
 }
 
-#main h2, #main h3, #main p{
-    width: 100%;
-}
-
 #main h2{
+    width: 100%;
     text-align: center;
 }
 
-#main h3 {
-
+#about{
+    margin: 50px;
 }
 
-#main p{
-
+#main h3, #main p{
+    width: 50%;
+    margin: auto;
 }
 
 #products{
     display: flex;
     flex-flow: row wrap;
+    margin: auto;
+    gap: 15px;
 }
 
 .product{

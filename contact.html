@@ -25,7 +25,8 @@
 </header>
 <main>
     <h1 id="title">Contact</h1>
-    <form>
+    <form class="gform" method="POST" data-email="engineering.jpt@gmail.com" 
+    action="https://script.google.com/macros/s/AKfycbyYLYWSBAaB1CLvmu47zLmTDaM90JvvRV5mGBZ7c98ru69BcD2teNWlE-D3qwfOBm2E/exec">
         <legend><h2>Personal Information</h2></legend>
         <label for="fname">First Name *</label>
         <input id="fname" type="text" autocomplete="given-name" required>
@@ -35,7 +36,7 @@
         <input id="email" type="text" autocomplete="email" required>
         <label for="text">Your Message *</label>
         <textarea id="text"></textarea>
-        <input id="submit" type="submit" onsubmit="alert('Form Submited')">
+        <button id="submit" onsubmit="alert('Form Submited')">Submit</button>
     </form>
 </main>
 <footer>
