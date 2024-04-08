@@ -92,6 +92,11 @@
     .product .cart h3{
         font-size: 12pt;
     }
+
+    #main h3, #main p{
+        width: 80%;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 1024px){ 

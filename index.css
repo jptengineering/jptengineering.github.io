@@ -8,12 +8,9 @@ header h1{
     margin: auto;
 }
 
-main h1{
-    color: black;
-}
-
 main img{
     margin: auto;
+    box-shadow: 0px 0px 2.5px #153463;
 }
 
 @media screen and (max-width: 480px){

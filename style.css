@@ -5,10 +5,17 @@
 	box-sizing: border-box; 
 	margin: 0px;
 	padding: 0px;
+    color: whitesmoke;
 }
 
 body, main, header, p, h1, h2, h3, h4, h5, h6, footer, li{
 	display: block;
+}
+
+body{
+    background-image: linear-gradient(#153463 1px, transparent 1px), 
+                      linear-gradient(to right, #153463 1px, #0C1227 1px);
+    background-size: 45px 45px;
 }
 
 a{
@@ -115,9 +122,17 @@ footer nav a:hover{
     border: 10px solid #1f498a;
     border-top: none;
     background-position: center;
-    background-image: linear-gradient(#a0a0a0 1px, transparent 1px), 
-                    linear-gradient(to right, #a0a0a0 1px, #ffffff 1px);
-    background-size: 45px 45px;
+    background-color: #0d203d;
+    opacity: 1;
+    background-color: #0d203d;
+    opacity: 1;
+    background-color: #0d203d;
+    opacity: 1;
+    background-color: #0d203d;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #153463 12%, transparent 12.5%, transparent 87%, #153463 87.5%, #153463), linear-gradient(150deg, #153463 12%, transparent 12.5%, transparent 87%, #153463 87.5%, #153463), linear-gradient(30deg, #153463 12%, transparent 12.5%, transparent 87%, #153463 87.5%, #153463), linear-gradient(150deg, #153463 12%, transparent 12.5%, transparent 87%, #153463 87.5%, #153463), linear-gradient(60deg, #15346377 25%, transparent 25.5%, transparent 75%, #15346377 75%, #15346377), linear-gradient(60deg, #15346377 25%, transparent 25.5%, transparent 75%, #15346377 75%, #15346377);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 }
 
 #banner h2{

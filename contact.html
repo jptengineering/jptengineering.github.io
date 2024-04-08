@@ -27,13 +27,16 @@
     <h1 id="title">Contact</h1>
     <form class="gform" method="POST" data-email="engineering.jpt@gmail.com" 
     action="https://script.google.com/macros/s/AKfycbyYLYWSBAaB1CLvmu47zLmTDaM90JvvRV5mGBZ7c98ru69BcD2teNWlE-D3qwfOBm2E/exec">
-        <legend><h2>Personal Information</h2></legend>
-        <label for="fname">First Name *</label>
-        <input id="fname" type="text" autocomplete="given-name" required>
-        <label for="lname">Last Name *</label>
-        <input id="lname" type="text" autocomplete="family-name" required>
-        <label for="email">E-mail *</label>
-        <input id="email" type="text" autocomplete="email" required>
+        <div id="info">
+            <legend><h2>Personal Information</h2></legend>
+            <label for="fname">First Name *</label>
+            <input id="fname" type="text" autocomplete="given-name" required>
+            <label for="lname">Last Name *</label>
+            <input id="lname" type="text" autocomplete="family-name" required>
+            <label for="email">E-mail *</label>
+            <input id="email" type="text" autocomplete="email" required>
+        </div>
+        <img src="../images\engineering trojan head trans.svg" alt="">
         <label for="text">Your Message *</label>
         <textarea id="text"></textarea>
         <button id="submit" onsubmit="alert('Form Submited')">Submit</button>

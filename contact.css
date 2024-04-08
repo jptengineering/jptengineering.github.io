@@ -6,8 +6,8 @@ body{
     width: 100%;
     height: 100%;
     background-position: center;
-    background-image: linear-gradient(#a0a0a0 1px, transparent 1px), 
-                      linear-gradient(to right, #a0a0a0 1px, #ffffff 1px);
+    background-image: linear-gradient(#153463 1px, transparent 1px), 
+                      linear-gradient(to right, #153463 1px, #0C1227 1px);
     background-size: 45px 45px;
 }
 
@@ -28,6 +28,7 @@ form{
 }
 
 form input{
+    width: 100%;
     aspect-ratio: 1/0.1;
     margin: 10px 0px;
     padding: 5px;
@@ -47,6 +48,16 @@ form legend, form label{
     width: 100%;
 }
 
+form #info{
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+}
+
+form img{
+    transform: scaleX(-1);
+}
+
 form #submit{
     background: #1f498a;
     color: white;
@@ -62,7 +73,6 @@ form #submit:hover{
     box-shadow: 0px 0px 5px #1f498a;
     font-weight: 500 ;   
 }
-
 
 @media screen and (max-width: 480px){
     #title{
@@ -105,7 +115,7 @@ form #submit:hover{
     }
     
     form input{
-        width: 50%;
+        width: 100%;
         font-size: 16pt;
     }
     

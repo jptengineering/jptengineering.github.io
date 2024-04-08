@@ -18,6 +18,8 @@ h1{
     background: #0d203d;
     color: white;
     margin: auto;
+    max-width: 350px;
+    gap: 15px;
     text-align: center;
     aspect-ratio: 3/4;
     box-shadow: 0px 0px 2.5px #0d203d;
@@ -32,7 +34,7 @@ h1{
 
 .sponsors img{  
     width: 100%;
-        aspect-ratio: 3/4;
+    aspect-ratio: 3/4;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -49,7 +51,7 @@ h1{
     margin: auto;
     text-align: center;
     aspect-ratio: 3/4;
-    box-shadow: 0px 0px 2.5px #0d203d;
+    box-shadow: 0px 0px 2.5px #153463;
     border-radius: 15px;
     padding: 10px;
 }
@@ -75,6 +77,10 @@ h1{
     margin: auto;
 }
 
+#bsta img{
+    background: #0C1227;
+}
+
 #bsta p{
     width: 100%;
 }
@@ -82,6 +88,10 @@ h1{
 #bsta p a{
     text-align: center;
     margin: auto;
+}
+
+p a:hover{
+    font-weight: bold;
 }
 
 @media screen and (max-width: 480px){
@@ -113,8 +123,5 @@ h1{
         width: 15%;
     }
 
-    .officers .name{
-        font-size: ;
-    }
 
 }
