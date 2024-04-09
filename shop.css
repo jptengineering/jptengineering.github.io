@@ -93,10 +93,16 @@
         font-size: 12pt;
     }
 
-    #main h3, #main p{
-        width: 80%;
-        margin: auto;
+    #main *{
+        padding: 0;
+        margin: 15px 0px;
     }
+
+    #main h3, #main p{
+        margin: auto;
+        width: 100%;
+    }
+
 }
 
 @media screen and (min-width: 1024px){ 

@@ -11,10 +11,6 @@ body{
     background-size: 45px 45px;
 }
 
-#title{
-    text-shadow: 3px 3px 5px #a0a0a0;
-}
-
 form{
     display: flex;
     flex-flow: row wrap;
@@ -93,6 +89,10 @@ form #submit:hover{
         width: 100%;
         font-size: 16pt;
     }
+
+    form #info{
+        width: 100%;
+    }
     
     form textarea{
         font-size: 14pt;
@@ -102,6 +102,10 @@ form #submit:hover{
     form #submit{
         width: 100%;
         font-size: 16pt;
+    }
+
+    form img{
+        width: 100%;
     }
 }
 

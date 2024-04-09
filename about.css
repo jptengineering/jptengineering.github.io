@@ -74,21 +74,43 @@ h1{
 }
 
 #bsta{
+    width: 100%;
     margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#bsta h2{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#bsta > a{
+    margin: 25px auto;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 25px 0px;
+    width: 500px;
+    border-radius: 15px;
+    padding: 10px;
+    background: #0C1227;
 }
 
 #bsta img{
-    background: #0C1227;
+    width: 100%;
 }
 
 #bsta p{
     width: 100%;
+    display: flex;
 }
 
 #bsta p a{
     text-align: center;
     margin: auto;
 }
+
 
 p a:hover{
     font-weight: bold;
@@ -111,6 +133,10 @@ p a:hover{
 
     .officers .title{
         font-size: 11pt;
+    }
+
+    #bsta img{
+        width: 100%;
     }
 }
 
