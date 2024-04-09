@@ -17,6 +17,11 @@ main img{
     main img{
         width: 100%;
     }
+
+    #title{
+        font-size: 25pt;
+    }
+    
 }
 
 @media screen and (min-width: 1024px){

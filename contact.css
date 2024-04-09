@@ -52,6 +52,7 @@ form #info{
 
 form img{
     transform: scaleX(-1);
+    width: 50%;
 }
 
 form #submit{

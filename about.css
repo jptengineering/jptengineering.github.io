@@ -63,7 +63,7 @@ h1{
 
 .officers img{  
     width: 100%;
-        aspect-ratio: 3/4;
+    aspect-ratio: 3/4;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -75,7 +75,7 @@ h1{
 
 #bsta{
     width: 100%;
-    margin: auto;
+    margin: 50px auto;
     display: flex;
     flex-flow: row wrap;
 }
@@ -122,9 +122,12 @@ p a:hover{
         margin: 5px auto;
     }
 
+    #officers{
+        gap: 15px;
+    }
+
     .officers{
-        width: 32%;
-        margin: 5px auto;
+        width: 30%;
     }
 
     .officers .name{
