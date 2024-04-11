@@ -116,7 +116,6 @@ footer nav a:hover{
     color: #1f498a;
 }
 
-    
 #banner{
     width: 100%;
     border: 10px solid #1f498a;
@@ -141,6 +140,22 @@ footer nav a:hover{
     margin: auto ;
     text-align: center;
 }
+
+button{
+    background: #1f498a;
+    color: white;
+    border: none;
+    aspect-ratio: 1/0.2;
+    margin: 10px 0px;
+    border-radius: 5px;
+    font-weight: 600 ;
+}
+
+button:hover{
+    box-shadow: 0px 0px 5px #1f498a;
+    font-weight: 700;   
+}
+
 
 @media screen and (max-width: 480px){
     main{

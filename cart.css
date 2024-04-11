@@ -1,5 +1,77 @@
 @charset "utf-8";
 
+body{
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0px 25px;
+    height: 75vh;
+}
+
+#products{
+    width: 66%;
+    background: #a0a0a0;
+    border-radius: 25px 0px 0px 25px;
+    padding: 25px 50px;
+}
+
+#cart{
+    width: 100%;
+    min-height: 75%;
+    border: solid purple;
+}
+
+#saved{
+    width: 100%;
+    min-height: 25%;
+    border: solid red;
+}
+
+#summary{
+    width: 34%;
+    height: 100%;
+    background: #0d203d;
+    border-radius: 0px 25px 25px 0px;
+    padding: 25px 50px;
+}
+
+#calc{
+    height: 60%;
+}
+
+#total{
+    height: 40%;
+}
+
+#promo{
+    aspect-ratio: 1/0.15;
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#promo input{
+    border: none;
+    color: black;
+    aspect-ratio: 1/0.15;
+    margin: 10px 0px;
+    border-radius: 5px;
+    font-size: 16pt ;
+    padding: 5px;
+    width: 80%;
+}
+
+#promo button{
+    height: 100%;
+    width: calc(20% - 5px);
+    margin-left: 5px;
+}
+
+#total button{
+    width: 50%;
+}
 
 @media screen and (max-width: 480px){
 
